@@ -319,6 +319,7 @@ h1 {
 .skills-section h2 {
   color: #ffffff;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 /* Skills Grid */
@@ -344,7 +345,40 @@ h1 {
 .skill:hover img {
   filter: grayscale(0%);
 }
-
+.services-section h2 {
+  text-stroke: 2px transparent;
+  font-family: "Montserrat";
+  line-height: 1;
+  font-size: 6vw;
+}
+.skills-section h2 {
+  text-stroke: 2px transparent;
+  font-family: "Montserrat";
+  line-height: 1;
+  font-size: 6vw;
+}
+.contact-section h2 {
+  text-stroke: 2px transparent;
+  font-family: "Montserrat";
+  line-height: 1;
+  font-size: 6vw;
+}
+.projects-section {
+  padding: 10px 0px;
+}
+.projects-section h2 {
+  text-stroke: 2px transparent;
+  font-family: "Montserrat";
+  line-height: 1;
+  font-size: 6vw;
+  text-align: center;
+}
+.skills-section h2 {
+  text-stroke: 2px transparent;
+  font-family: "Montserrat";
+  line-height: 1;
+  font-size: 6vw;
+}
 @media screen and (max-width: 991px) {
   .menu-icon:checked + label,
   .menu-icon:not(:checked) + label {
@@ -415,7 +449,7 @@ p {
   margin-right: auto;
   margin-left: auto;
   max-width: 1140px;
-  padding: 100px 0;
+  padding: 10px 0;
 }
 .section-row {
   display: -ms-flexbox;
@@ -600,7 +634,7 @@ p {
   background-color: #1f2029;
   overflow: hidden;
   text-align: center;
-  padding: 100px 0;
+  padding: 10px 0;
 }
 
 .services-section h2 {
